@@ -12,10 +12,20 @@
       integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/91bebaec5f.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Контакты</title>
     <style>
       body {
         background-color: #f2f3f4;
+      }
+      .fa-brands {
+        color: green;
+      }
+      .fa-solid {
+        color: green;
       }
     </style>
   </head>
@@ -24,18 +34,16 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-4">
-            <p>Тут будет Лого</p>
+            <div>
+              <img src="img/logo.png" alt="" />
+            </div>
           </div>
-          <div class="col-sm-8 d-flex d-flex justify-content-end">
+          <div class="col-sm-8 d-flex d-flex justify-content-end text-success">
             <h1>Приют для бездомных животных<br />"В добрые руки" в Москве</h1>
           </div>
         </div>
       </div>
       <div class="container">
-        <p>
-          Выровнять кнопки панели навигации по центру и добавить отступы ко всем
-          элементам
-        </p>
         <nav class="navbar navbar-expand-sm navbar-dark bg-success">
           <a class="navbar-brand" href="#">Главная</a>
           <button
@@ -66,14 +74,14 @@
         </nav>
       </div>
     </header>
-    <div class="container d-flex justify-content-center">
+    <div class="container d-flex justify-content-center mt-5 border-top border-success">
       <div class="row">
         <div class="col-sm-12">
           <h2>Контакты</h2>
         </div>
       </div>
     </div>
-    <div class="container d-flex justify-content-center">
+    <div class="container d-flex justify-content-center mt-2">
       <div class="row">
         <div class="col-md-6">
           <p>
@@ -85,14 +93,14 @@
             </strong>
           </p>
           <p class="text-success">
-            8 (903) 973-03-59 Татьяна Сергеевна<br />
-            8 (916) 530-64-94 Ирина Артемова<br />
-            8 (977) 724-30-82 Петр Николаевич<br />
-            8 (916) 210-10-44 Виктория Константиновна<br />
-            8 (906) 045-58-43 Наталья Ивановна
+            <i class="fa-solid fa-phone"></i> 8 (903) 973-03-59 Татьяна Сергеевна<br />
+            <i class="fa-solid fa-phone"></i> 8 (916) 530-64-94 Ирина Артемова<br />
+            <i class="fa-solid fa-phone"></i> 8 (977) 724-30-82 Петр Николаевич<br />
+            <i class="fa-solid fa-phone"></i> 8 (916) 210-10-44 Виктория Константиновна<br />
+            <i class="fa-solid fa-phone"></i> 8 (906) 045-58-43 Наталья Ивановна
           </p>
           <p><strong>Контактный E-mail</strong><br /></p>
-          <p class="text-success">vdobryeruki@yandex.ru</p>
+          <p class="text-success"><i class="fa-solid fa-envelope-open"></i> vdobryeruki@yandex.ru</p>
         </div>
         <div class="col-md-6">
           <p>
@@ -105,19 +113,29 @@
           </p>
           <p>
             <strong>Наши социальные сети</strong><br />
-            вставить значки
+            <div class="col-sm-4 d-flex align-items-center">
+            <p>
+              <i class="fa-brands fa-instagram fa-2xl"></i>
+            </p>
+            <p class="ml-4">
+              <i class="fa-brands fa-vk fa-2xl"></i>
+            </p>
+            <p class="ml-4">
+              <i class="fa-brands fa-telegram fa-2xl"></i>
+            </p>
+          </div>
           </p>
         </div>
       </div>
     </div>
-    <div class="container d-flex justify-content-center">
+    <div class="container d-flex justify-content-center mt-5 border-top border-success">
       <div class="row">
         <div class="col-sm-12">
           <h2>Как к нам добраться</h2>
         </div>
       </div>
     </div>
-    <div class="container"></div>
+    <div class="container mt-2"></div>
     <div class="row">
       <div class="col-sm-12 d-flex justify-content-center">
         <script
@@ -129,11 +147,26 @@
       </div>
     </div>
     <footer>
-      <div class="container bg-white">
+      <div class="container bg-white mt-5">
         <div class="row">
-          <div class="col-sm-4">Тут лого</div>
-          <div class="col-sm-4">Тут значки вк, инсты, тг</div>
-          <div class="col-sm-4"><h5>Наш e-mail: vdobryeruki@yandex.ru</h5></div>
+          <div class="col-sm-4"><img src="img/logo.png" alt="logo" /></div>
+          <div class="col-sm-4 d-flex align-items-center">
+            <p>
+              <i class="fa-brands fa-instagram fa-2xl"></i>
+            </p>
+            <p class="ml-5">
+              <i class="fa-brands fa-vk fa-2xl"></i>
+            </p>
+            <p class="ml-5">
+              <i class="fa-brands fa-telegram fa-2xl"></i>
+            </p>
+          </div>
+          <div class="col-sm-4 d-flex align-items-center">
+            <h5>
+              Наш E-mail <i class="fa-solid fa-envelope-open fa-xs"></i
+              ><br />vdobryeruki@yandex.ru
+            </h5>
+          </div>
         </div>
       </div>
     </footer>

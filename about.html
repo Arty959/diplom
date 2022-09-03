@@ -12,10 +12,20 @@
       integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/91bebaec5f.js"
+      crossorigin="anonymous"
+    ></script>
     <title>О нас</title>
     <style>
       body {
         background-color: #f2f3f4;
+      }
+      .fa-brands {
+        color: green;
+      }
+      .fa-solid {
+        color: green;
       }
     </style>
   </head>
@@ -24,18 +34,16 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-4">
-            <p>Тут будет Лого</p>
+            <div>
+              <img src="img/logo.png" alt="" />
+            </div>
           </div>
-          <div class="col-sm-8 d-flex d-flex justify-content-end">
+          <div class="col-sm-8 d-flex d-flex justify-content-end text-success">
             <h1>Приют для бездомных животных<br />"В добрые руки" в Москве</h1>
           </div>
         </div>
       </div>
       <div class="container">
-        <p>
-          Выровнять кнопки панели навигации по центру и добавить отступы ко всем
-          элементам
-        </p>
         <nav class="navbar navbar-expand-sm navbar-dark bg-success">
           <a class="navbar-brand" href="#">Главная</a>
           <button
@@ -66,14 +74,16 @@
         </nav>
       </div>
     </header>
-    <div class="container d-flex justify-content-center">
+    <div
+      class="container d-flex justify-content-center mt-5 border-top border-success"
+    >
       <div class="row">
         <div class="col-sm-12">
           <h2>О приюте</h2>
         </div>
       </div>
     </div>
-    <div class="container d-flex justify-content-center">
+    <div class="container d-flex justify-content-center mt-2">
       <div class="row">
         <div class="col-sm-12">
           <p>
@@ -95,14 +105,16 @@
         </div>
       </div>
     </div>
-    <div class="container d-flex justify-content-center">
+    <div
+      class="container d-flex justify-content-center mt-3 border-top border-success"
+    >
       <div class="row">
         <div class="col-sm-12">
           <h2>Мы не принимаем животных в приют!</h2>
         </div>
       </div>
     </div>
-    <div class="container d-flex justify-content-center">
+    <div class="container d-flex justify-content-center mt-2">
       <div class="row">
         <div class="col-sm-12">
           <p>
@@ -114,14 +126,16 @@
         </div>
       </div>
     </div>
-    <div class="container d-flex justify-content-center">
+    <div
+      class="container d-flex justify-content-center mt-3 border-top border-success"
+    >
       <div class="row">
         <div class="col-sm-12">
           <h2>Что Вы можете сделать?</h2>
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container mt-2">
       <div class="row">
         <div class="col-sm-6">
           <p><strong>Помочь приюту</strong></p>
@@ -162,14 +176,16 @@
         </div>
       </div>
     </div>
-    <div class="container d-flex justify-content-center">
+    <div
+      class="container d-flex justify-content-center mt-3 border-top border-success"
+    >
       <div class="row">
         <div class="col-sm-12">
           <h2>Кто такие волонтеры</h2>
         </div>
       </div>
     </div>
-    <div class="container d-flex justify-content-center">
+    <div class="container d-flex justify-content-center mt-2">
       <div class="row">
         <div class="col-sm-12">
           <p>
@@ -189,12 +205,25 @@
       </div>
     </div>
     <footer>
-      <div class="container bg-white">
+      <div class="container bg-white mt-5">
         <div class="row">
-          <div class="col-sm-4">Тут лого</div>
-          <div class="col-sm-4">Тут значки вк, инсты, тг</div>
-          <div class="col-sm-4">
-            <h5>Наш e-mail:<br />vdobryeruki@yandex.ru</h5>
+          <div class="col-sm-4"><img src="img/logo.png" alt="logo" /></div>
+          <div class="col-sm-4 d-flex align-items-center">
+            <p>
+              <i class="fa-brands fa-instagram fa-2xl"></i>
+            </p>
+            <p class="ml-5">
+              <i class="fa-brands fa-vk fa-2xl"></i>
+            </p>
+            <p class="ml-5">
+              <i class="fa-brands fa-telegram fa-2xl"></i>
+            </p>
+          </div>
+          <div class="col-sm-4 d-flex align-items-center">
+            <h5>
+              Наш E-mail <i class="fa-solid fa-envelope-open fa-xs"></i
+              ><br />vdobryeruki@yandex.ru
+            </h5>
           </div>
         </div>
       </div>

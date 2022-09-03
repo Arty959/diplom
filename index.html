@@ -12,10 +12,20 @@
       integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/91bebaec5f.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Приют "В добрые руки"</title>
     <style>
       body {
         background-color: #f2f3f4;
+      }
+      .fa-brands {
+        color: green;
+      }
+      .fa-solid {
+        color: green;
       }
     </style>
   </head>
@@ -24,18 +34,16 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-4">
-            <p>Тут будет Лого</p>
+            <div>
+              <img src="img/logo.png" alt="" />
+            </div>
           </div>
-          <div class="col-sm-8 d-flex d-flex justify-content-end">
+          <div class="col-sm-8 d-flex d-flex justify-content-end text-success">
             <h1>Приют для бездомных животных<br />"В добрые руки" в Москве</h1>
           </div>
         </div>
       </div>
       <div class="container">
-        <p>
-          Выровнять кнопки панели навигации по центру и добавить отступы ко всем
-          элементам
-        </p>
         <nav class="navbar navbar-expand-sm navbar-dark bg-success">
           <a class="navbar-brand" href="#">Главная</a>
           <button
@@ -66,14 +74,18 @@
         </nav>
       </div>
     </header>
-    <div class="container d-flex justify-content-center">
+    <div
+      class="container d-flex justify-content-center mt-5 border-top border-success"
+    >
       <div class="row">
         <div class="col-sm-12">
           <h2>Взять животное из приюта</h2>
         </div>
       </div>
     </div>
-    <div class="container d-flex justify-content-center">
+    <div
+      class="container d-flex justify-content-center mt-2 border-bottom border-success"
+    >
       <div class="row">
         <div class="col-sm-12">
           <p>
@@ -91,7 +103,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container mt-5">
       <div class="row">
         <div class="col-sm-4">
           <div
@@ -100,8 +112,11 @@
           >
             <img src="img/dog1.jpg" class="card-img-top" alt="cooper" />
             <div class="card-body">
-              <h5 class="card-title">Купер</h5>
+              <h5 class="card-title">
+                <i class="fa-solid fa-id-card"></i> Купер
+              </h5>
               <p class="card-text">
+                <i class="fa-solid fa-file-lines"></i>
                 Я — щенок, и я хочу больше всего на свете любить вас, быть с
                 вами и радовать вас. Мы одинаковые в том, что мы оба понимаем,
                 что такое голод, боль, жажда, дискомфорт, страх, но при этом мы
@@ -111,9 +126,15 @@
               </p>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Мальчик</li>
-              <li class="list-group-item">7 месяцев</li>
-              <li class="list-group-item">Привит</li>
+              <li class="list-group-item">
+                <i class="fa-solid fa-mars"></i> Мальчик
+              </li>
+              <li class="list-group-item">
+                <i class="fa-solid fa-circle-info"></i> 7 месяцев
+              </li>
+              <li class="list-group-item">
+                <i class="fa-solid fa-syringe"></i> Привит
+              </li>
             </ul>
           </div>
         </div>
@@ -124,8 +145,11 @@
           >
             <img src="img/cat1.jpeg" class="card-img-top" alt="lipa" />
             <div class="card-body">
-              <h5 class="card-title">Липа</h5>
+              <h5 class="card-title">
+                <i class="fa-solid fa-id-card"></i> Липа
+              </h5>
               <p class="card-text">
+                <i class="fa-solid fa-file-lines"></i>
                 Знакомьтесь, пухленькая ватрушечка по имени Липа! Обладательница
                 щёчек, которые созданы для любви. Умиротворённая и душевная,
                 поболтает по душам и выпьет с Вами чай. Мягкая как медвежонок.
@@ -135,9 +159,15 @@
               </p>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Девочка</li>
-              <li class="list-group-item">3 года</li>
-              <li class="list-group-item">Привита</li>
+              <li class="list-group-item">
+                <i class="fa-solid fa-venus"></i> Девочка
+              </li>
+              <li class="list-group-item">
+                <i class="fa-solid fa-circle-info"></i> 3 года
+              </li>
+              <li class="list-group-item">
+                <i class="fa-solid fa-syringe"></i> Привита
+              </li>
             </ul>
           </div>
         </div>
@@ -148,8 +178,11 @@
           >
             <img src="img/dog2.jpg" class="card-img-top" alt="shanty" />
             <div class="card-body">
-              <h5 class="card-title">Шанти</h5>
+              <h5 class="card-title">
+                <i class="fa-solid fa-id-card"></i> Шанти
+              </h5>
               <p class="card-text">
+                <i class="fa-solid fa-file-lines"></i>
                 Красавица, очень ласковая, хорошо идет на контакт, любит
                 внимание, чтобы с ней разговаривали. Любопытная и позитивная
                 девочка. Шанти около 2-х лет, в холке около 40 см. Любит ласку,
@@ -159,22 +192,30 @@
               </p>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Девочка</li>
-              <li class="list-group-item">2 года</li>
-              <li class="list-group-item">Привит</li>
+              <li class="list-group-item">
+                <i class="fa-solid fa-venus"></i> Девочка
+              </li>
+              <li class="list-group-item">
+                <i class="fa-solid fa-circle-info"></i> 2 года
+              </li>
+              <li class="list-group-item">
+                <i class="fa-solid fa-syringe"></i> Привит
+              </li>
             </ul>
           </div>
         </div>
       </div>
     </div>
-    <div class="container d-flex justify-content-center">
+    <div
+      class="container d-flex justify-content-center border-top border-success"
+    >
       <div class="row">
         <div class="col-sm-12">
           <h2>Как выбрать питомца из приюта</h2>
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container mt-2 border-bottom border-success">
       <div class="row">
         <div class="col-sm-12">
           <ul>
@@ -252,7 +293,7 @@
         </div>
       </div>
     </div>
-    <div class="container d-flex justify-content-center">
+    <div class="container d-flex justify-content-center mt-5">
       <div class="row">
         <div class="col-sm-12">
           <p>
@@ -268,12 +309,25 @@
       </div>
     </div>
     <footer>
-      <div class="container bg-white">
+      <div class="container bg-white mt-5">
         <div class="row">
-          <div class="col-sm-4">Тут лого</div>
-          <div class="col-sm-4">Тут значки вк, инсты, тг</div>
-          <div class="col-sm-4">
-            <h5>Наш e-mail:<br />vdobryeruki@yandex.ru</h5>
+          <div class="col-sm-4"><img src="img/logo.png" alt="logo" /></div>
+          <div class="col-sm-4 d-flex align-items-center">
+            <p>
+              <i class="fa-brands fa-instagram fa-2xl"></i>
+            </p>
+            <p class="ml-5">
+              <i class="fa-brands fa-vk fa-2xl"></i>
+            </p>
+            <p class="ml-5">
+              <i class="fa-brands fa-telegram fa-2xl"></i>
+            </p>
+          </div>
+          <div class="col-sm-4 d-flex align-items-center">
+            <h5>
+              Наш E-mail <i class="fa-solid fa-envelope-open fa-xs"></i
+              ><br />vdobryeruki@yandex.ru
+            </h5>
           </div>
         </div>
       </div>
