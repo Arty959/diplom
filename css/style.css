@@ -1,0 +1,13 @@
+body {
+  background-color: #f2f3f4;
+}
+.fa-brands {
+  color: green;
+}
+.fa-solid {
+  color: green;
+}
+#animals {
+  position: relative;
+  cursor: pointer;
+}
